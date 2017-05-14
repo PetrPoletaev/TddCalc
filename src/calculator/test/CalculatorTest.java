@@ -102,7 +102,7 @@ public class CalculatorTest {
     @Test
     void testCalcSub10and5(){
         Calculator calculator= new Calculator();
-        Assertions.assertEquals(1, calculator.sub(10,5));
+        Assertions.assertEquals(5, calculator.sub(10,5));
     }
 }
 

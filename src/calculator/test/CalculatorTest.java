@@ -11,8 +11,8 @@ public class CalculatorTest {
 
     @Test
     public void testNewEquation(){
-        Equation equation = new Eqution();
-        Assertions.assertNotNull(calculator);
+        Equation equation = new Equation();
+        Assertions.assertNotNull(equation);
 
     }
 }

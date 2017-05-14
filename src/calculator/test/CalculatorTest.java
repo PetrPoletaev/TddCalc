@@ -32,5 +32,13 @@ public class CalculatorTest {
         Calculator calculator= new Calculator();
         Assertions.assertEquals(4, calculator.add(2,2));
     }
+
+
+    @Test
+    void testCalcAdd2and3(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(5, calculator.add(2,3));
+    }
+
 }
 

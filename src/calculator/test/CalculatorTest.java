@@ -49,5 +49,10 @@ public class CalculatorTest {
         Assertions.assertEquals(156.226, calculator.add(122.568, 33.658));
     }
 
+    @Test
+    void testCalcMultiply2and2(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(4, calculator.Multiply(2,2));
+    }
 }
 

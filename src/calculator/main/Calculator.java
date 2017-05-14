@@ -3,7 +3,6 @@
  */
 public class Calculator {
 
-    //todo реализовать метод add позднее до конца
     public double add(double x, double y) {
             return x+y;
     }

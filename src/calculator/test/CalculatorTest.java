@@ -13,7 +13,13 @@ public class CalculatorTest {
     public void testNewEquation(){
         Equation equation = new Equation();
         Assertions.assertNotNull(equation);
-
     }
+
+    @Test
+    public void testNewMatrix(){
+        Matrix matrix = new Matrix();
+        Assertions.assertNotNull(matrix);
+    }
+
 }
 

@@ -98,5 +98,11 @@ public class CalculatorTest {
         Calculator calculator= new Calculator();
         Assertions.assertEquals(1, calculator.sub(3,2));
     }
+
+    @Test
+    void testCalcSub10and5(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(1, calculator.sub(10,5));
+    }
 }
 

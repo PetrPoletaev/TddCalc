@@ -27,6 +27,10 @@ public class CalculatorTest {
         Assertions.assertNotNull(integrator);
     }
 
-
+    @Test
+    void testCalcAdd2and2(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(4, calculator.add(2,2));
+    }
 }
 

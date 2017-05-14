@@ -92,5 +92,11 @@ public class CalculatorTest {
         Assertions.assertEquals(-46, calculator.Multiply(-23,2));
         Assertions.assertEquals(380, calculator.Multiply(-76,-5));
     }
+
+    @Test
+    void testCalcSub3and2(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(1, calculator.sub(3,2));
+    }
 }
 

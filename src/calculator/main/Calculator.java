@@ -10,4 +10,8 @@ public class Calculator {
     public double Multiply(double x, double y) {
         return x*y;
     }
+
+    public double sub(double x, double y) {
+        return 1;
+    }
 }

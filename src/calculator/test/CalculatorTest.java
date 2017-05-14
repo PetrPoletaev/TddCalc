@@ -72,5 +72,11 @@ public class CalculatorTest {
         Calculator calculator= new Calculator();
         Assertions.assertEquals(0, calculator.Multiply(3,0));
     }
+
+    @Test
+    void testCalcMultiplyMinus2and10(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(-20, calculator.Multiply(-2,10));
+    }
 }
 

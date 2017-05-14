@@ -40,5 +40,14 @@ public class CalculatorTest {
         Assertions.assertEquals(5, calculator.add(2,3));
     }
 
+    @Test
+    void testCalcAddXandY(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(5, calculator.add(2,3));
+        Assertions.assertEquals(-3, calculator.add(0, -3));
+        Assertions.assertEquals(0.402, calculator.add(0.002, 0.4));
+        Assertions.assertEquals(156.226, calculator.add(122.568, 33.658));
+    }
+
 }
 

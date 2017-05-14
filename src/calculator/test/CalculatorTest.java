@@ -21,5 +21,12 @@ public class CalculatorTest {
         Assertions.assertNotNull(matrix);
     }
 
+    @Test
+    public void testNewIntegrator(){
+        Integrator integrator = new Integrator();
+        Assertions.assertNotNull(integrator);
+    }
+
+
 }
 

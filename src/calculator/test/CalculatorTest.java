@@ -54,5 +54,12 @@ public class CalculatorTest {
         Calculator calculator= new Calculator();
         Assertions.assertEquals(4, calculator.Multiply(2,2));
     }
+
+    @Test
+    void testCalcMultiply2and3(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(6, calculator.Multiply(2,3));
+    }
+
 }
 

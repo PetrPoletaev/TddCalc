@@ -84,5 +84,13 @@ public class CalculatorTest {
         Calculator calculator= new Calculator();
         Assertions.assertEquals(-20, calculator.Multiply(-10,2));
     }
+
+    @Test
+    void testCalcMultiplyXandY(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(826.2606, calculator.Multiply(12.54,65.89));
+        Assertions.assertEquals(-46, calculator.Multiply(-23,2));
+        Assertions.assertEquals(380, calculator.Multiply(-76,-5));
+    }
 }
 

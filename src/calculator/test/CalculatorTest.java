@@ -110,5 +110,11 @@ public class CalculatorTest {
         Calculator calculator= new Calculator();
         Assertions.assertEquals(27, calculator.sub(22,-5));
     }
+
+    @Test
+    void testCalcDiv6and2(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(3, calculator.div(6,2));
+    }
 }
 

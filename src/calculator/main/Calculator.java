@@ -1,6 +1,4 @@
-/**
- * Created by Petr on 14.05.2017.
- */
+
 public class Calculator {
 
     public double add(double x, double y) {
@@ -15,6 +13,6 @@ public class Calculator {
         return x-y;
     }
     public double div(double x, double y) {
-        return 3;
+        return x/y;
     }
 }

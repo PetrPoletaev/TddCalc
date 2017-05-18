@@ -116,5 +116,19 @@ public class CalculatorTest {
         Calculator calculator= new Calculator();
         Assertions.assertEquals(3, calculator.div(6,2));
     }
+
+    @Test
+    void testCalcDivXandY(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(5, calculator.div(10,2));
+    }
+
+    @Test
+    void testCalcDivXandZero(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals( java.lang.ArithmeticException.class, calculator.div(10,0));
+    }
+
+
 }
 

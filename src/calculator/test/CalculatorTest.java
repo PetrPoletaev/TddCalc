@@ -126,9 +126,14 @@ public class CalculatorTest {
     @Test
     void testCalcDivXandZero(){
         Calculator calculator= new Calculator();
-        Assertions.assertEquals( java.lang.ArithmeticException.class, calculator.div(10,0));
+        try {
+            calculator.div(10,0);
+        }
+        catch (ArithmeticException ex){
+            Assertions.assertEquals( java.lang.ArithmeticException.class, ex.getClass());
+            return;
+        }
+        Assertions.fail("Not zero");
     }
-
-
 }
 

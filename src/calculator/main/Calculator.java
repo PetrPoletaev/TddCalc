@@ -14,8 +14,7 @@ public class Calculator {
     }
     public double div(double x, double y) {
         Double result=null;
-
-            result= x / y;
+        result= x / y;
         if (result == Double.POSITIVE_INFINITY ||
                 result == Double.NEGATIVE_INFINITY)
 

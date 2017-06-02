@@ -147,5 +147,11 @@ public class CalculatorTest {
         Calculator calculator= new Calculator();
         Assertions.assertEquals(1 , calculator.cos(0));
     }
+
+    @Test
+    void testSqrt(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(2 , calculator.sqrt(4));
+    }
 }
 

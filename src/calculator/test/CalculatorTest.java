@@ -155,12 +155,20 @@ public class CalculatorTest {
     }
 
 
-
-
     @Test
     void testSinX(){
         Calculator calculator= new Calculator();
         Assertions.assertEquals(-0.9880316240928618 , calculator.sin(30));
+    }
+
+    @Test
+    void testMultiplyMatrix(){
+        Matrix matrix= new Matrix();
+        double[][] A= {{1,-1}, {2,0}, {3,0} };
+        double[][] B={{1,1},{2,0}};
+        double[][] AB={{-1,1},{2,2}, {3,3}};
+
+        Assertions.assertEquals( AB , matrix.mul(A,B));
     }
 
 }

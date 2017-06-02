@@ -153,5 +153,13 @@ public class CalculatorTest {
         Calculator calculator= new Calculator();
         Assertions.assertEquals(2 , calculator.sqrt(4));
     }
+
+
+    @Test
+    void testSin30(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(-0.98803162409 , calculator.sin(30));
+    }
+
 }
 

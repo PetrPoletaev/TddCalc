@@ -26,4 +26,8 @@ public class Calculator {
     public double sin(int i) {
         return 0;
     }
+
+    public double cos(double x) {
+        return 1;
+    }
 }

@@ -22,6 +22,7 @@ public class Calculator {
         return result;
     }
 
+    //todo: реализовать метод полностью
     public double sin(int i) {
         return 0;
     }

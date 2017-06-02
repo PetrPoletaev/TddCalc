@@ -141,5 +141,11 @@ public class CalculatorTest {
         Calculator calculator= new Calculator();
         Assertions.assertEquals(0 , calculator.sin(0));
     }
+
+    @Test
+    void testCos(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(1 , calculator.cos(0));
+    }
 }
 

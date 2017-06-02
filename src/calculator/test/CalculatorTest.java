@@ -135,5 +135,11 @@ public class CalculatorTest {
         }
         Assertions.fail("Not zero");
     }
+
+    @Test
+    void testSin(){
+        Calculator calculator= new Calculator();
+        Assertions.assertEquals(0 , calculator.sin(0));
+    }
 }
 

@@ -19,8 +19,6 @@ public class Calculator {
                 result == Double.NEGATIVE_INFINITY)
 
             throw new ArithmeticException();
-
-
         return result;
     }
 }

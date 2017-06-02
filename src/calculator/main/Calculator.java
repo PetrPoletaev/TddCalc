@@ -24,8 +24,7 @@ public class Calculator {
 
     //todo: реализовать метод полностью
     public double sin(int i) {
-        if(i==0) return 0;
-        return -0.98803162409;
+        return Math.sin(i);
     }
 
     //todo: реализовать метод полностью

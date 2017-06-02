@@ -27,7 +27,13 @@ public class Calculator {
         return 0;
     }
 
+    //todo: реализовать метод полностью
     public double cos(double x) {
         return 1;
+    }
+
+    //todo: реализовать метод полностью
+    public double sqrt(double x) {
+        return 2;
     }
 }

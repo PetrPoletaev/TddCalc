@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 public class CalculatorTest {
 
     @Test
@@ -168,7 +170,7 @@ public class CalculatorTest {
         double[][] B={{1,1},{2,0}};
         double[][] AB={{-1,1},{2,2}, {3,3}};
 
-        Assertions.assertEquals( AB , matrix.mul(A,B));
+        Assertions.assertEquals(true, Arrays.deepEquals(AB , matrix.mul(A,B)));
     }
 
 }

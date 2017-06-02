@@ -155,10 +155,12 @@ public class CalculatorTest {
     }
 
 
+
+
     @Test
-    void testSin30(){
+    void testSinX(){
         Calculator calculator= new Calculator();
-        Assertions.assertEquals(-0.98803162409 , calculator.sin(30));
+        Assertions.assertEquals(-0.9880316240928618 , calculator.sin(30));
     }
 
 }

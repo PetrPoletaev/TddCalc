@@ -21,4 +21,8 @@ public class Calculator {
             throw new ArithmeticException();
         return result;
     }
+
+    public double sin(int i) {
+        return 0;
+    }
 }
